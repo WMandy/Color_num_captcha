@@ -76,7 +76,7 @@ for i in range(0,10):
         ch_images.append(img)
     dataset[i]=ch_images
     
-p=r'C:\Users\mandi_wang\Desktop\num_color\data_images\image/'
+p='./image/'
 files=os.listdir(p)
 for file in files:
     img=cv2.imread(os.path.join(p,file))
