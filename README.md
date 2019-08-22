@@ -1,5 +1,6 @@
-# -验证码样式如下
-![这](https://github.com/WMandy/Color_num_captcha/blob/master/000000.png)
+# -
+验证码样式如下
+# -![这](https://github.com/WMandy/Color_num_captcha/blob/master/000000.png)
 
 步骤： 
 1.根据下方文字提示在图中找到对应颜色的数字
