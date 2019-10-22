@@ -1,6 +1,6 @@
 # -
 验证码样式如下
-# -
+# 验证码
 ![](https://github.com/WMandy/Color_num_captcha/blob/master/000000.png)
 
 步骤： 
