@@ -1,7 +1,7 @@
 # -
 破解比较简单的纯数字验证码，没必要爬上千张样本再搞个cnn网络训练，用常规的传统算法效果通常都ok。
 # 验证码样式
-![](https://github.com/WMandy/Color_num_captcha/blob/master/000000.png)
+![](https://github.com/WMandy/Color_num_captcha/blob/master/example_images/000000.png)
 
 步骤： 
 1.根据下方文字提示在图中找到对应颜色的数字  
