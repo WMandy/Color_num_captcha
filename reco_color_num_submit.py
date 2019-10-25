@@ -71,10 +71,9 @@ def reco_num(img_base64code):
     img=cv2.imdecode(nparr,cv2.IMREAD_COLOR)
     #img=cv2.imread(os.path.join(p,file))
 
-    if img[39,52][0]==0:
-        a='Yellow'
-    elif img[38,53][0]==14:
-        a='Red'
+    color_word=img[38:51,52:65]
+    a=np.sum(color_word)//255
+    a='Yellow' if a<300 else 'Red'
         
     if a=='Yellow':
         lower=np.array([0,160,160])  #黄色
